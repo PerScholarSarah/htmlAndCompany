@@ -1,0 +1,71 @@
+#main{
+    /* border:2px solid black; */
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    display:grid;
+    grid: auto auto / auto auto;
+}
+.quad{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:center;
+}
+#top-left{
+    background-image:url("images/amazon_splash_image.jpg")
+}
+#top-right{
+    background-image:url("images/apple_splash_image.jpg")
+}
+#bottom-left{
+    background-image:url("images/google_splash_image.jpg")
+}
+#bottom-right{
+    background-image:url("images/microsoft_splash_image.jpg")
+}
+
+.card{
+    /* border:2px solid grey; */
+    background:transparent;
+    width:12vmax;
+    height:12vmax;
+    margin:1%;
+    font-size:20px;
+    color:black;
+    text-align:center;
+    animation:0.5s;
+}
+.card:hover{
+    background-color: grey;
+    color:white;
+    width:15vmax;
+    height:15vmax;
+    font-size:25px;
+}
+#top-left .card{
+    margin-top:auto;
+    margin-left:auto;
+}
+#top-right .card{
+    margin-top:auto;
+}
+#bottom-left .card{
+    margin-left:auto;
+}
+img
+{
+    max-width:100%;
+    max-height:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+a{
+    
+
+}
